@@ -1,0 +1,15 @@
+<!doctype html>
+<html ng-app="concourse-test">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <script src="../bower_components/angular/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="indexController as indexCtrl">
+  <h1>{{ indexCtrl.data.title }}</h1>
+  <p>{{ indexCtrl.data.body }}</p>
+</body>
+</html>

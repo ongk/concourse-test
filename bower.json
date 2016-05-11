@@ -1,0 +1,21 @@
+{
+  "name": "concourse-test",
+  "description": "",
+  "main": "src/app.js",
+  "license": "ISC",
+  "homepage": "https://github.com/ongk/concourse-test",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.9"
+  }
+}
